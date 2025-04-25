@@ -1,0 +1,12 @@
+train: C:\Users\VB GROUP\Desktop\industrial_safety_monitoring\datasets\ppe\train\images
+val: C:\Users\VB GROUP\Desktop\industrial_safety_monitoring\datasets\ppe\valid\images
+
+nc: 4
+names: ['helmet', 'not_helmet', 'not_reflective', 'reflective']
+
+roboflow:
+  workspace: work-safe-project
+  project: safety-vest---v4
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/work-safe-project/safety-vest---v4/dataset/3
